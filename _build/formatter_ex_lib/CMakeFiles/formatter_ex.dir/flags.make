@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/epal/lab3/formatter_ex_lib/../formatter_lib
+CXX_INCLUDES = -I/home/epal/lab04/formatter_ex_lib/../formatter_lib
 
 CXX_FLAGS = 
 

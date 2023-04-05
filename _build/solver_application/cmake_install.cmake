@@ -1,4 +1,4 @@
-# Install script for directory: /home/epal/lab3/solver_application
+# Install script for directory: /home/epal/lab04/solver_application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

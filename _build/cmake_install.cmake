@@ -1,4 +1,4 @@
-# Install script for directory: /home/epal/lab3
+# Install script for directory: /home/epal/lab04
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/epal/lab3/_build/formatter_lib/cmake_install.cmake")
-  include("/home/epal/lab3/_build/formatter_ex_lib/cmake_install.cmake")
-  include("/home/epal/lab3/_build/hello_world_application/cmake_install.cmake")
-  include("/home/epal/lab3/_build/solver_lib/cmake_install.cmake")
-  include("/home/epal/lab3/_build/solver_application/cmake_install.cmake")
+  include("/home/epal/lab04/_build/formatter_lib/cmake_install.cmake")
+  include("/home/epal/lab04/_build/formatter_ex_lib/cmake_install.cmake")
+  include("/home/epal/lab04/_build/hello_world_application/cmake_install.cmake")
+  include("/home/epal/lab04/_build/solver_lib/cmake_install.cmake")
+  include("/home/epal/lab04/_build/solver_application/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/epal/lab3/_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/epal/lab04/_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
